@@ -38,4 +38,13 @@ print(candidates)
 print(percentage_votes)
 print(winner)
 
+print("Election Results")
+print("-------------------------------------")
+print("Total Votes: " + str(vote_count))
+print("-------------------------------------")
+for key, value in candidates.items():
+    print(key + ": " + str(percentage_votes[key]) + "% (" + str(value) + ")")
+print("-------------------------------------")
+print("Winner: " + winner)
+print("-------------------------------------")
 
